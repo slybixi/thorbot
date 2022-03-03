@@ -25,6 +25,10 @@
         "MASTER_ID": {
             "description": "ID of the channel master or controller",
             "required": true
+        },
+        "MONGO_STRING": {
+            "description": "Mongo database connection string",
+            required": true
         }
     }
 }
