@@ -1,7 +1,7 @@
 {
     "name": "ThorBot",
     "description": "Anti Spam Telegram Bot Written In Python With Pyrogram.",
-    "repository": "https://github.com/slybixi/tellerbot",
+    "repository": "https://github.com/slybixi/thorbot",
     "keywords": [
     "python3",
     "telegram",
