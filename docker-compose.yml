@@ -1,13 +1,3 @@
-version: '2'
-services:
-  mongo:
-   image: mongo:latest
-   container_name: mongo
-   ports:
-    - "27017:27017"
-   volumes:
-    - /etc/mongo:/data/db
-
-  thorbot:
-    image: thorbot:test
-    container_name: thorbot
+build:
+  docker:
+      worker: Dockerfile
