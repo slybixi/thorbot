@@ -28,7 +28,7 @@
         },
         "MONGO_STRING": {
             "description": "Mongo database connection string",
-            required": true
+            "required": true
         }
     }
 }
