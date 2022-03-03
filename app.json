@@ -1,0 +1,30 @@
+{
+    "name": "ThorBot",
+    "description": "Anti Spam Telegram Bot Written In Python With Pyrogram.",
+    "repository": "https://github.com/slybixi/tellerbot",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "anti spam bot",
+    "telegram-bot",
+    "pyrogram",
+    "ThorBot",
+    "Spam Protection Bot"
+    ],
+    "stack": "container",
+    "env": {
+        "GROUP_ID": {
+            "description": "Telegram group ID",
+            "required": true
+        },
+        "BOT_API_KEY": {
+            "description": "Telegram bot Token",
+            "required": true
+        },
+        "MASTER_ID": {
+            "description": "ID of the channel master or controller",
+            "required": true
+        }
+    }
+}
