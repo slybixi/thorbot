@@ -1,13 +1,11 @@
 FROM python:3.6
 
-ENV GROUP_ID=''
-ENV BOT_API_KEY=''
-ENV MASTER_ID=''
-
 WORKDIR /thorbot
+
+RUN chmod 777 /thorbot
 
 ADD . /thorbot
 
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -U -r requirements.txt
 
 CMD ["python", "thorbot/thorbot.py"]
