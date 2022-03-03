@@ -20,7 +20,7 @@ class Config():
             }
 
             # Setup DB
-            client = MongoClient('mongodb://mongo:27017')
+            client = MongoClient(env.get('MONGO_STRING'))
             self.db = client.test
             if self.db.users.index_information().get('username_1_chat_id_1') is None:
                 self.db.users.create_index([('username', pymongo.ASCENDING),
