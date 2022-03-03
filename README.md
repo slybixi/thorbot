@@ -13,3 +13,8 @@ for your `docker-compose up -d` command.
 - `/warn [username]` -- increments the warning of the user
 - `/clear_warnings [username]` -- clears all warnings for the user
 - `/permit [username] [num]` -- permits the user the ability to post `num` links in chat
+
+# Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/slybixi/Thorbot/)
+
